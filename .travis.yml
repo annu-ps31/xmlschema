@@ -10,4 +10,5 @@ python:
 install:
   - pip install -r requirements-dev.txt
 script:
+  - uname -m
   - python tests/test_all.py
